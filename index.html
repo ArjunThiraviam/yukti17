@@ -330,12 +330,12 @@ font-family: raleway;
        }
     );
     </script>
-    
-<script type="text/javascript">
-$(document).ready(function() {
-    $('body').show();
-});
-</script>
+    <script type="text/javascript">
+	$('#bg-layer').css('opacity', 0);
+	$(window).load(function() {
+	  $('#bg-layer').css('opacity', 1);
+	});
+    </script>
 
 
 
